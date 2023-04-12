@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+     
+     <head>
+        <meta charset="utf-8">
+        <title>hello world</title>
+     </head>
+     <body>
+        <h1>hello world</h1>
+        <p>how to make one <br>frase <b>in bold</b></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alias aliquid recusandae. Harum beatae velit pariatur accusamus similique perspiciatis iure? Deserunt, saepe magni explicabo repellat mollitia corporis possimus assumenda reprehenderit?</p>
+     </body>
+</html>
