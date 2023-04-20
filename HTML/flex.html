@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>flex</title>
+        <meta charset="utf-8">
+        <style>
+            .rectangle {
+                width: 200px;
+                height: 350px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                word-wrap: break-word;
+                border-radius: 50%;50%;50%;50%;
+                }
+            .verd {
+                background-color: rgb(88, 140, 36);
+                border-radius: 50% 20% 50% 5%;
+                
+            }
+            .vernell {
+                background-color: rgb(154, 53, 100);
+                border-radius: 50%;50%;50%;50%;
+            }
+            .blau {
+                background-color: blue;
+                
+            }
+            .groc {
+                background-color: gold;
+            }
+            .container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                
+                align-items: flex-start;
+                justify-content: space-around;
+                background-color: cadetblue;
+              
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Comproment flex</h1>
+        <hr>
+
+        <div class="container">
+        <div class="rectangle verd">Caixa1 es la primera caixa lkjlihjoioih fdsresres Lorem ipsum dolor
+             sit amet consectetur adipisicing elit. Maiores, natus enim vel possimus quos itaque non optio
+              doloremque magni quis modi iusto incidunt minima id tempore vero beatae distinctio</div>
+        <div class="rectangle vernell">Caixa2</div>
+        <div class="rectangle blau">Caixa3</div>
+        <div class="rectangle groc">Caixa4</div>
+    </div>
+    </body>
+</html>
