@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Grid</title>
+<meta charset="utf-8">
+<style>
+
+    
+    
+   
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'menu main main main main right'
+    'menu main main main main right'
+    'text text text text1 text1 text1'
+    'text text text text1 text1 text1'
+    'footer footer footer footer footer footer';
+    gap: 10px;
+  
+  padding: 10px;
+    
+    background-color: rgb(243, 246, 239);
+    
+    
+    
+   
+}
+.item1 {
+    grid-area: header;
+    background-color: rgb(115, 105, 92);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item2 {
+   grid-area: menu;
+   background-color: rgb(85, 103, 97);
+   height: 400px;
+    
+}
+.item3 {
+    grid-area: main;
+   
+    height: 400px;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+.item4 {
+    grid-area: right;
+    background-color: rgb(85, 103, 97);
+    height: 400px;
+}
+.item5 {
+    grid-area: footer;
+    background-color: rgb(115, 105, 92);
+    height: 50px;
+}
+.item6 {
+    grid-area: text;
+    background-color: rgb(115, 105, 92);
+    height: 200px;
+}
+.item7 {
+    grid-area: text1;
+    background-color: rgb(115, 105, 92);
+    height: 200px;
+}
+.box {
+    height: 32%;
+    background-color: rgb(115, 105, 92)
+}
+h1 {
+    
+}
+</style>
+</head>
+<body>
+    
+    <div class="container">
+    <div class="item1">
+        <h1>Exercici de distribucio de contingut amb grit</h1>
+    </div>
+    <div class="item2">
+        <UL>
+            <LI></LI>
+            <LI></LI>
+            <LI></LI>
+            <LI></LI>
+            <LI></LI>
+            <LI></LI>
+            <LI></LI>
+
+        </UL>
+    </div>
+    <div class="item3">
+        <DIV class="box"></DIV>
+        <DIV class="box"></DIV>
+        <DIV class="box"></DIV>
+</div>
+    <div class="item4">right</div>
+    <div class="item5">footer</div>
+    <div class="item6">text</div>
+    <div class="item7">text1</div>
+    
+
+</div>
+
+</body>    
+</html>
