@@ -1,0 +1,41 @@
+:root{
+    --colorvoratitol: rgb(80, 80, 61);
+    --colorvisita: rgb(163, 163, 120);
+}
+
+.tarjet {
+    border: 10px dotted var(--colorvoratitol);
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+h2 {
+    height: 20%;
+    border-bottom: 10px dotted var(--colorvoratitol);
+}
+
+
+input:focus{
+    background-color: cadetblue;
+}
+.box {
+    margin: 10px;
+}
+.box1 input:disabled{
+    background-color: rgb(95, 115, 116);
+}
+input:required{
+   
+    box-shadow: 2px 2px 2px 2px violet;
+}
+input:checked{
+    box-shadow: 2px 2px 2px 2px violet;
+
+}

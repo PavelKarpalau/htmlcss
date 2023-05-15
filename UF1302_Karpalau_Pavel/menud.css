@@ -1,0 +1,147 @@
+/* menu */
+
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    background-color:#2a2c2f;
+   }
+   
+   /* enlaces del menu */
+   
+   #menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    letter-spacing:1px;
+    width: 150px;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    position:relative;
+    float:right;
+    margin:0;
+    padding:0;
+   }
+   
+   /* efecto al pasar el ratón por los items del menu */
+   
+   #menu ul li:hover {
+    background:#9399a3;
+    transition: 0.3s;
+    box-shadow: 3px 3px 10px #eff1f4;
+    
+   }
+   #menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu ul ul li {
+    float:none;
+    width:200px
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+   #menu ul li:hover > ul {
+    display:block;
+   }
+   header{
+    height: 120px;
+    background-color: #2a2c2f;
+   }
+   .logo{
+    height: 120px;
+    width: 250px;
+    background-color: #eee;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .banner{
+    height: 450px;
+    width: 100%;
+    background-color: #9399a3;
+   }
+   .slogan{
+    height: 150px;
+    background-color: #eee;
+    font-size: 36px;
+    display: flex;
+    
+    
+    align-items: baseline;
+    justify-content: center;
+    
+
+   }
+   .blockinfo{
+    height: 250px;
+    width: 100%;
+    background-color: #86a9e1;
+    display: flex;
+    flex-direction: row;
+   }
+   .block{
+    width: 50%;
+    height: 250px ;
+    border: 1px solid white;
+   }
+   footer{
+    height: 120px;
+    background-color: #2a2c2f;
+   }
+   h1{
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+   }
+   h2{
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; ;
+    text-align: center;
+   }
+   .button {
+    position: absolute;
+    left: 1250px;
+    top: 420px;
+    height: 40px;
+    width: 200px;
+    background-color: #86a9e1;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+   }
+   a {
+    text-decoration: none;
+   }
+   a:visited, a:link, a:hover, a:active{
+    color: #2a2c2f;
+   }

@@ -1,0 +1,199 @@
+.main {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    
+   
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    
+}
+
+.container:hover .box2,.container:hover .box3,
+.container:hover .box4,.container:hover .box5,
+.container:hover .box6,.container:hover .box7,
+.container:hover .box8,.container:hover .box9,
+.container:hover .box10,.container:hover .box11{
+    transform: none;
+    box-shadow: 2px 2px 20px black;
+    transition: 1s;
+}
+.container {
+    display: flex;
+    background-color: rgb(184, 163, 216);
+    height: 200px;
+    width: 350px;
+    margin: 10px;
+    flex-direction: column;
+    border: 1px solid black;
+   
+}
+.container:hover{
+    background-color: blueviolet;
+    transition: 1s;
+    
+    width: 365px;
+    box-shadow: 2px 2px 20px black;
+    color: aliceblue;
+}
+
+.box {
+    
+    background-color: rgb(240, 243, 245);
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box1 {
+    
+    background-color: rgb(240, 243, 245);
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    transform: none;
+}
+
+.box2 {
+    
+    background-color: rgb(240, 243, 245);
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    align-items: center;
+    transform: matrix(1,2,3,1,2,3);
+    border: 1px solid black;
+}
+.box3 {
+    
+    background-color: rgb(240, 243, 245);
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    align-items: center;
+    transform: rotate(20deg)
+    
+    
+   
+}
+
+.box4 {
+    
+    background-color: rgb(240, 243, 245);
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    align-items: center;
+    transform: rotate(45deg)
+    
+    
+   
+}
+.box5 {
+    
+    background-color: rgb(240, 243, 245);
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    align-items: center;
+    transform: rotatex(45deg)
+    
+    
+   
+}
+.box6 {
+    
+    background-color: rgb(240, 243, 245);
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    align-items: center;
+    transform: rotatey(45deg)
+    
+    
+   
+}
+.box7 {
+    
+    background-color: rgb(240, 243, 245);
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    align-items: center;
+    transform: skew(20deg,20deg)
+    
+    
+   
+}
+.box8 {
+    
+    background-color: rgb(240, 243, 245);
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    align-items: center;
+    transform: skewY(40deg);
+   
+    
+   
+}
+.box9 {
+    
+    background-color: rgb(240, 243, 245);
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    align-items: center;
+    transform: translate(20px,10px);
+    
+    
+   
+}
+.box10 {
+    
+    background-color: rgb(240, 243, 245);
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    align-items: center;
+    transform: scale(2,2);
+    
+    
+   
+}
+.box11 {
+    
+    background-color: rgb(240, 243, 245);
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    align-items: center;
+    transform: matrix(0.866,0.7,-0.8,0.866,0,0);
+    
+    
+   
+}
+.box12 {
+    
+    background-color: rgb(240, 243, 245);
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    align-items: center;
+    transform: matrix(0.586,0.8,-0.8,0.586,40,30);
+    
+    
+   
+}
+
+
+
